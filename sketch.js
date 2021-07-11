@@ -67,10 +67,7 @@ function setup(){
 function draw(){
     
     background("black");
-noStroke();
- textSize(25);
- fill("white");
- text("SCORE " +score,width-400,50);
+
    
     Engine.update(engine);
     
